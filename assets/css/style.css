@@ -1,0 +1,61 @@
+/*Javascript file for Psychic game
+Created by Nigel P. John for UCF Coding Bootcamp
+Created the week of April 18 2016*/
+
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: black;
+	color: rgb(111, 137, 213);
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 50px;
+}
+
+section{
+	width: 940px;
+	min-height: 500px;
+	padding: 20px 20px;
+	color: white;
+	background-color: rgb(39, 40, 34);
+	background-image: url("../../assets/images/starphoto.jpg");	
+}
+
+section div{
+	font-size: 20px;
+}
+
+#guess{
+	background-color: black;
+	width: 450px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+footer{
+	width: 980px;
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	clear: both;
+	line-height: 50px;
+}
+
+#letters{
+	letter-spacing: 10px;
+}
+
+#plus,
+#zero,
+#left,
+#letters{
+	font-size: 20px;
+	color: red;
+}
